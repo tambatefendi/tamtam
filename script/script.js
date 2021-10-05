@@ -1,4 +1,4 @@
-const txtElement = ["Selamat Datang Di Portfolio saya"];
+const txtElement = ["Selamat Datang Di halaman blog  saya"];
 let count=0;
 let txtIndex = 0;
 let currentTxt = '';
