@@ -72,7 +72,7 @@ header ul li a:hover{
 }
 .container{
     width: 90%;
-    margin: 0 auto;
+    margin:auto;
 
 }
 
@@ -179,8 +179,7 @@ section{
         display:block;
         padding: 10px;
         cursor: pointer;
-        
-        
+    
     }
     header ul{
         display: none;
@@ -195,13 +194,13 @@ section{
         margin-top: 0;
         height: 250px;
     }
-
-
     }
 
-    
 }
-p{
+
+
+p
+{
     color: #0fa3ec;
 }
 
@@ -302,8 +301,6 @@ a
 		transition-delay: 0.75s;
 	}
 
-
-
 .box
 {
  position: relative;
@@ -325,7 +322,7 @@ a
     width: 50px;
     height: 150%;
     background: linear-gradient(#5c0cf1,#24ee09);
-    animation: animate 5s linear infinite;
+    animation: animate 7s linear infinite;
 
 }
 
@@ -353,6 +350,26 @@ a
     position: relative;
     z-index: 10;
 
+}
+
+
+div p{
+    
+    background: rgb(112, 170, 236);
+    width: 100%;
+    position: absolute;
+    height: 10rem;
+    margin:10px;
+    overflow: hidden;
+
+
+}
+
+div p::before
+{
+   content: '';
+    background: linear-gradient(#5c0cf1,#24ee09);
+    animation: animasi 7s linear infinite;
 }
 
 /* end */
